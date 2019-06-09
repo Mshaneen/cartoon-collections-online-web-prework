@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(array)
   array.each do |calls|
-    return "#{calls.upcase}!"
+    return calls.upcase!
   end
 end
 
