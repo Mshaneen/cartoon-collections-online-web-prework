@@ -20,6 +20,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
+  
   cheese_types.find do |types|
    types.include?(cheese_types)
   end
