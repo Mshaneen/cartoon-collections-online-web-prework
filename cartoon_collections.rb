@@ -8,8 +8,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.each do |calls|
-    return calls.upcase!
+  array.collect do |calls|
+   
   end
 end
 
